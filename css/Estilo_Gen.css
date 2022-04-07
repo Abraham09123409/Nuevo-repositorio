@@ -1,0 +1,54 @@
+.centrado{
+    text-align: center;
+    color: black;
+    background-color: rgb(119, 202, 202);
+    display: flex;
+}
+.barra_menu{
+    text-align: start;
+    color: black;
+    background-color: azure;
+    border-radius:10% 30% 50% 70%;;
+    display: flex;
+}
+.ropa{
+    text-align:center;
+    display: flex; 
+}
+div.logo {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    }
+    img {
+    width: 100%;
+    height: auto;
+    }
+
+@media screen and (min-width: 800px) {
+    .centrado{
+        flex-direction: column;
+        flex: auto;
+        background-color: blueviolet;
+    }
+}
+@media screen and (min-width: 800px){
+    .barra_menu{
+        flex: auto;
+        flex-direction: column;
+        background-color: violet;
+        display: flex;
+    }
+}
+@media screen and (min-width: 800px) {
+    .ropa{
+        flex: auto;
+        display:flex;
+    }   
+}
+@media screen and (min-width: 800px){
+    .logo{
+        flex: content;
+        display: flex;
+    }
+}
