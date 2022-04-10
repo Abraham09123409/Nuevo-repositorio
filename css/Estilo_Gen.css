@@ -1,17 +1,17 @@
-.centrado{
+.contendor{
     text-align: center;
     color: black;
     background-color: rgb(29, 151, 151);
     display: flex;
 }
-.barra_menu{
+.links{
     text-align: start;
     color: black;
     background-color: azure;
     border-radius:10% 30% 50% 70%;;
     display: flex;
 }
-.ropa{
+.imagen{
     text-align:center;
     display: flex; 
 }
