@@ -47,9 +47,10 @@ div.imagen {
         display:flex;
     }   
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 500px){
     .img{
         flex: content;
         display: flex;
+        display: none;
     }
 }
