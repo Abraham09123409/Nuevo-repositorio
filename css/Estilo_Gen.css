@@ -15,7 +15,7 @@
     text-align:center;
     display: flex; 
 }
-div.logo {
+div.imagen {
     width: 96%;
     max-width: 960px;
     margin: 0 auto;
@@ -26,14 +26,15 @@ div.logo {
     }
 
 @media screen and (min-width: 800px) {
-    .centrado{
+    .contendor{
+        
         flex-direction: column;
         flex: auto;
         background-color: blueviolet;
     }
 }
 @media screen and (min-width: 800px){
-    .barra_menu{
+    .links{
         flex: auto;
         flex-direction: column;
         background-color: violet;
@@ -41,13 +42,13 @@ div.logo {
     }
 }
 @media screen and (min-width: 800px) {
-    .ropa{
+    .imagen{
         flex: auto;
         display:flex;
     }   
 }
 @media screen and (min-width: 800px){
-    .logo{
+    .img{
         flex: content;
         display: flex;
     }
