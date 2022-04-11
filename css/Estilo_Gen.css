@@ -10,10 +10,12 @@
     background-color: azure;
     border-radius:10% 30% 50% 70%;;
     display: flex;
+    flex: auto;
 }
 .imagen{
     text-align:center;
-    display: flex; 
+    display: flex;
+    flex: auto; 
 }
 div.imagen {
     width: 96%;
@@ -23,6 +25,8 @@ div.imagen {
     img {
     width: 100%;
     height: auto;
+    flex: auto;
+    display: flex;
     }
 
 @media screen and (min-width: 800px) {

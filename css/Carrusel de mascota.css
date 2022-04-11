@@ -43,6 +43,7 @@ ul.slider li:target{
     margin: 30px;
     flex: auto;
     display: flex;
+    flex: auto;
 }
 .menu li a{
     display: inline-block;
@@ -54,6 +55,8 @@ ul.slider li:target{
     height: 20px;
     font-size: 20px;
     border-radius: 100%;
+    display: flex;
+    flex: auto;
 }
 ul.menu li{
     margin: 0;
