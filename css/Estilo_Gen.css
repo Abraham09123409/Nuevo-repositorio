@@ -3,6 +3,7 @@
     color: black;
     background-color: rgb(29, 151, 151);
     display: flex;
+    flex: auto;
 }
 .links{
     text-align: start;
