@@ -51,7 +51,7 @@ ul.slider li:target{
     display: flex;
 }
 .menu li{
-    display: inline-;
+    display: inline-block;
     margin: 20px;
     display: flex;
 }
